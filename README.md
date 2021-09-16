@@ -1,6 +1,10 @@
 # test-interv-elisoft
 A personal project
 
+#### Create mysql database with following name and collation
+```sh
+laravel-test latin1_swedish_ci
+```
 #### Migrate database along with seed.
 ```sh
 php artisan migrate:fresh --seed
